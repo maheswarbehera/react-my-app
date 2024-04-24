@@ -17,10 +17,12 @@ function Component1() {
 
   return (
     <>
-    <UserContext.Provider value={user}>
-        <h1>com-1</h1> <h1>Component 1</h1>
-      <h1>{`Hello ${user}!`}</h1>
-      <Component2 />
+    <UserContext.Provider value={user} >
+        <div class="App-header">com-1 
+          <h1>Component 1</h1>
+          <h1>{`Hello ${user}!`}</h1>
+          <Component2 />
+        </div>
     </UserContext.Provider>
     </>
   );
