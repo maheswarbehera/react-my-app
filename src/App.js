@@ -50,7 +50,7 @@ function App() {
   return (
     <>
 
-    <Context/> 
+    {/* <Context/>  */}
       <div className="App">
         <header className="App-header">
           <Navigate/>

@@ -39,7 +39,7 @@ const Form = () => {
             </label>
             <input type="submit" />
         </form>
-        <div>{name} </div><p>{user.name}</p>
+        <div>{name}</div><p>{user.name}</p>
     </div>
   );
 }
